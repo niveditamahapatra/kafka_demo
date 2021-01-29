@@ -1,0 +1,8 @@
+spring:
+  cloud:
+    stream:
+      bindings:
+        output:
+         destination: employee-cloud-stream
+         
+server:  port: 9192
